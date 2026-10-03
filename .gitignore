@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist_single.html
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env / secrets (AegisOps runs without any of these by design)
+.env
+.env.local
+.env.*.local
+
+# Zip / bundle artefacts that shouldn't be committed
+*.zip
+aegisops_source.zip
+AegisOps_source.zip
+AegisOps_dist.zip
+AegisOps_docs.zip
+
+# Local preview / test builds
+preview.log
